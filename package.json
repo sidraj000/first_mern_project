@@ -4,12 +4,11 @@
   "description": "mern stack",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm install --prefix client",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server":"nodemon server.js",
-    "client":"npm start --prefix client",
-    "dev":"concurrently \"npm run client\" \"npm run server\""
-
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
   },
   "author": "\"sid\"",
   "license": "ISC",
@@ -17,7 +16,8 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.1.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.9"
+    "mongoose": "^5.9.9",
+    "uuid": "^7.0.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
